@@ -42,11 +42,19 @@ aside{
 }
 
 section {
-    width: 74%;
+    width: 48%;
     height: 100%;
     background-color: purple;
     float: left;
     margin-left: 2%;
+    margin-right: 2%;
+}
+
+article {
+    width: 24%;
+    height: 70%;
+    background-color: pink;
+    float: left;
 }
 
 footer {
