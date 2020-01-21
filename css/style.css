@@ -29,7 +29,7 @@ header {
     margin: 5px;
 }
 
-main {
+section {
     height: 60%;
     margin: 5px;
 }
@@ -41,7 +41,7 @@ aside{
     float: left;
 }
 
-section {
+main {
     width: 48%;
     height: 100%;
     background-color: purple;
