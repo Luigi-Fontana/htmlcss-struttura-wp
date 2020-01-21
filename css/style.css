@@ -10,55 +10,52 @@
     clear: both;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
-    font-size: 40px;
+body {
+    background-image: url("http://www.zennarolegnami.com/wp-content/uploads/2016/08/legno.jpg");
+    background-size: cover;
 }
 
 .container {
-    width: 70vw;
-    height: 480px;
-    background-color: white;
+    width: 80vw;
+    height: 100vh;
     margin: 0 auto;
 }
 
 header {
-    height: 20%;
-    background-color: yellow;
-    margin: 5px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 10px;
 }
 
-section {
-    height: 60%;
-    margin: 5px;
+.row {
+    height: 500px;
 }
 
-aside{
-    width: 24%;
-    height: 70%;
-    background-color: pink;
+aside {
+    width: 25%;
+    height: 100%;
     float: left;
+}
+
+aside .content {
+    height: 100%;
+    background-color: white;
 }
 
 main {
-    width: 48%;
+    width: 50%;
     height: 100%;
-    background-color: purple;
     float: left;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding: 0 10px;
 }
 
-article {
-    width: 24%;
-    height: 70%;
-    background-color: pink;
-    float: left;
+main .content {
+    height: 100%;
+    background-color: white;
 }
 
 footer {
-    height: 20%;
-    background-color: lightblue;
-    margin: 5px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: white;
 }
